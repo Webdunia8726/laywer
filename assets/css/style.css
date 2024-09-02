@@ -60,21 +60,36 @@ span{
     border-radius: 20px;
 }
 
-/* Media query for devices with a max-width of 768px (tablets and smaller) */
-/* Media query for devices with a max-width of 768px (tablets and smaller) */
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .header {
+    padding: 1.5rem;
+  }
 
-  /* General styling for the icon container */
-/* .icon-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
+  .logo {
+    max-height: 60px;
+  }
+
+  .button1 {
+    padding: 0.75rem 1.5rem;
+  }
 }
 
-.icon-container span {
-  display: flex;
-  align-items: center;
-} */
+/* For mobile screens */
+@media (max-width: 767px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .logo {
+    max-height: 40px;
+  }
+
+  .button1 {
+    padding: 0.5rem 1rem;
+    width: 140px;
+  }
+}
 
 /* Responsive styling for mobile devices */
 @media (max-width: 767.98px) {
