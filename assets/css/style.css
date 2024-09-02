@@ -171,7 +171,7 @@ span{
 
 /* Card Title Styling */
 .custom-card .card-title {
-  font-size: 1.1rem;
+  font-size: 25px !important;
   font-weight: bold;
   color: #333;
   text-align: center;
@@ -181,7 +181,7 @@ span{
 @media (max-width: 767.98px) {
 
   .custom-card .card-title {
-    font-size: 1rem; /* Slightly smaller font for mobile */
+    font-size: 14px; /* Slightly smaller font for mobile */
   }
 
   /* Adjust spacing between cards for better mobile view */
@@ -238,10 +238,10 @@ span{
 
 /* Card Text Styling */
 .custom-card .card-text {
-  font-size: 0.95rem; /* Slightly smaller font */
+  font-size: 16px !important; /* Slightly smaller font */
   color: #555; /* Softer text color */
   line-height: 1.6; /* Improve readability */
-  text-align: left; /* Align text to the left */
+  text-align: center; /* Align text to the left */
 }
 
 /* Responsive Adjustments for Mobile */
