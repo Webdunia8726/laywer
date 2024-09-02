@@ -11,10 +11,8 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-p{
-  font-size: 18px;
-}
-h1{
+
+h1,h2{
   color: #12376b !important;
   font-weight: 700;
 }
@@ -174,8 +172,13 @@ span{
   }
 
   .card-title {
-    font-size: 1rem; /* Slightly smaller text on mobile */
+    font-size: 18px !important; /* Slightly smaller text on mobile */
   }
+  .section-subtitle {
+    font-size: 1.1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
 }
 
 
@@ -194,13 +197,7 @@ span{
   color: #333;
 }
 
-.backgroundsecondcard p {
-  font-size: 1rem;
-  margin-bottom: 2rem;
-  color: #666;
-  max-width: 700px; /* Limit width for better readability */
-  margin: 0 auto 2rem auto; /* Center the text block */
-}
+
 
 /* Card container styles */
 .card {
@@ -245,7 +242,7 @@ span{
 }
 
 .card-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555; /* Medium grey for body text */
   margin-bottom: 0;
 }
@@ -261,11 +258,15 @@ span{
   }
 
   .card-title {
-    font-size: 1.5rem; /* Slightly smaller title text */
+    font-size: 2rem; /* Slightly smaller title text */
   }
 
   .card-text {
-    font-size: 0.85rem; /* Slightly smaller body text */
+    font-size: 1rem; /* Slightly smaller body text */
+  }
+  .section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -306,7 +307,7 @@ span{
   left: 0; /* Align to the left */
   top: 0; /* Align to the top */
   font-size: 1.2rem; /* Icon size */
-  color: #007bff; /* Primary color for icons */
+  color: #12376b; /* Primary color for icons */
 }
 
 /* Button Styling */
@@ -504,3 +505,10 @@ span{
   }
 }
 
+
+
+.section-subtitle {
+  font-size: 1.4rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
